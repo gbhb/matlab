@@ -1,0 +1,14 @@
+a=eye(100);
+b=eye(100);
+tic;
+a*b;
+timer1=toc;
+fprintf('a*b spent: %f seconds\n',timer1);
+tic;
+sparse(a)*b;
+timer2=toc;
+fprintf('sparse(a)*b spent: %f seconds\n',timer2);
+tic;
+sparse(a)*sparse(b);
+timer3=toc;
+fprintf('sparse(a)*sparse(b) spent: %f seconds\n',timer3);

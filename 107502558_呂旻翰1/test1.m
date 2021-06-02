@@ -1,0 +1,11 @@
+x=1;
+y=3;
+z=75/180*pi;
+a=((y*sin(pi/2))^3)/(3*y*4*x);
+fprintf('(a) : %d\n',a);
+b=2*cos(z)/(2*y-x);
+fprintf('(b) : %d\n',b);
+c=(4/3*pi-x)^-2;
+fprintf('(c) : %d\n',c);
+d=(7*x)^3/(y+2*sin(z));
+fprintf('(d) : %d\n',d);

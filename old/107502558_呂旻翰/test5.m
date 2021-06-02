@@ -1,0 +1,10 @@
+x=-100:5:100;
+y=-50:5:50;
+[X,Y]=meshgrid(x,y);
+Z=X./Y;
+subplot(1,3,1);
+mesh(X,Y,Z);
+subplot(1,3,2);
+surf(X,Y,Z);
+subplot(1,3,3);
+contour(X,Y,Z);

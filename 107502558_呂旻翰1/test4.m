@@ -1,0 +1,13 @@
+array1=[2 5 10 11 12 17;1 4 9 15 13 19;7 3 6 14 18 16];
+a = array1(2,:);
+fprintf('(a) \n');
+disp(a);
+b = array1(:,[1 3 5]);
+fprintf('(b) \n');
+disp(b);
+c = array1(1:2:3,[3 3 4]);
+fprintf('(c) \n');
+disp(c);
+d = array1([1 1],:);
+fprintf('(d) \n');
+disp(d);

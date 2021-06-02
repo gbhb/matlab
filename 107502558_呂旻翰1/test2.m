@@ -1,0 +1,18 @@
+x=100;
+v=15;
+aa=9.81;
+t=5;
+a=x+v*t+1/2*aa*t^2;
+fprintf('(a) : %d\n',a);
+x=50;
+v=10;
+aa=7.5;
+t=3;
+a=x+v*t+1/2*aa*t^2;
+fprintf('(b) : %d\n',a);
+x=80;
+v=5;
+aa=3.14;
+t=9;
+a=x+v*t+1/2*aa*t^2;
+fprintf('(c) : %d\n',a);
